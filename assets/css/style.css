@@ -343,3 +343,16 @@ h1, h2, h3 {
         max-width: 300px;
     }
 }
+
+/*
+ * Adicione este novo bloco de código
+ * para controlar o tamanho das imagens dos depoimentos.
+ */
+.depoimento-foto {
+    width: 80px; /* Largura fixa para a imagem */
+    height: 80px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Recorta a imagem para preencher o espaço, sem distorcer */
+    border-radius: 50%; /* Deixa a imagem redonda, para um visual mais limpo */
+    margin-top: 15px; /* Adiciona um espaço acima da imagem */
+    border: 2px solid var(--primary-color); /* Adiciona uma borda colorida */
+}
